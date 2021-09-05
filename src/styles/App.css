@@ -1,0 +1,38 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Header and App Footer */
+header {
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  background-color: #666;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  background-color: #666;
+}
+
+.GameBoard {
+  display: flex;
+  flex-direction: row;
+}
+
+.NavBar{
+  
+}
+
+.Card {
+  border: 2px solid black;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+
